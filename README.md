@@ -1,7 +1,7 @@
 # valgrind_42
 Dockerfile that includes Valgrind, Vim and Clang for corrections
 
-This Dockerfile will be very usefull when you want to use Valgrind. As you may have realized, Valgrind doesn't work on the new versions of Mac OS, that's why we made a Dockerfile for you.
+This Dockerfile will be very usefull when you want to use Valgrind. As you may have realized, Valgrind doesn't work on newer versions of Mac OS, that's why this Dockerfile exists.
 
 **<u>How to use this git ?</u>**
 
