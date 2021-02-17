@@ -40,3 +40,7 @@ Please follow the next steps so that your docker image can open windows.
 ```bash
 $ xhost + 127.0.0.1
 ```
+5. In your docker image's shell (see paragraph above, after docker run ... & docker exec ...), run the command
+```bash
+$ export DISPLAY=host.docker.internal:0
+```
