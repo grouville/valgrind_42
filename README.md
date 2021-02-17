@@ -29,3 +29,14 @@ $ docker ps
 
 ```
 
+**<u>For graphical projects needing to open a window</u>**
+
+Please follow the next steps so that your docker image can open windows.
+
+1. Launch XQuartz (software is already installed in 42's sessions)
+2. Go to XQuartz > Preferences... > Security tab, and check the "Allow connections from network clients" option
+3. Quit & restart XQuartz (to activate the setting)
+4. Enable authorisation for localhost for X11 forwarding by entering in a shell (on the host not the docker image)
+```bash
+$ xhost + 127.0.0.1
+```
